@@ -1,0 +1,45 @@
+{
+  "name": "GoldenGate",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^4",
+    "@sap/cds-odata-v2-adapter-proxy": "^1.5.0",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@sap/ux-specification": "^1.84.0",
+    "sqlite3": "^5"
+  },
+  "scripts": {
+    "start": "cds run"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "model": "*",
+        "credentials": {
+          "database": "db/GoldenGate.db"
+        }
+      }
+    }
+  },
+  "sapux": [
+    "app\\project1",
+    "app\\intlogmonitor",
+    "app\\wlgg",
+    "app\\intlogmonitor",
+    "app\\intlogmonitor",
+    "app\\intlogmonitor",
+    "app\\project1",
+    "app\\intlogmonitor",
+    "app\\intlogsmonitor",
+    "app\\intlogsmonitor",
+    "app\\project1",
+    "app\\project1"
+  ]
+}

@@ -1,0 +1,6 @@
+﻿commerceStore_ID;catalogByDesignedId;objectId;objectType;status;message
+Store1;BYD_CAT1;ObjID1;Type1;Success;Message 1
+Store2;BYD_CAT2;ObjID2;Type1;Warning;Message 2
+Store1;BYD_CAT3;ObjID3;Type1;Success;Message 3
+Store2;BYD_CAT4;ObjID4;Type2;Error;Message 4
+Store3;BYD_CAT5;ObjID5;Type2;Error;Message 5
